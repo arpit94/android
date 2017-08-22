@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="comchillax.c12.MainActivity" >
+
+    <item
+        android:id="@+id/action_example"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom">
+        <item android:id="@+id/item1" android:title="Back"></item>
+    <item android:id="@+id/item2" android:title="Forward"></item>
+    <item android:id="@+id/item3" android:title="Reload"></item>
+    <item android:id="@+id/item4" android:title="Cancle"></item>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always">
+    </item>
+    
+
+</menu>

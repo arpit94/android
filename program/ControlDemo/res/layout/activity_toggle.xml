@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ToggleButton
+        android:id="@+id/toggle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Female"
+        android:textOn="Male" 
+        android:onClick="onToggle"/>
+    <ToggleButton
+        android:id="@+id/toggle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Indian"
+        android:textOn="NRI" 
+        android:onClick="onToggle"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onToggle"
+        android:textOff="bye"
+        android:textOn="Hi" />
+
+</LinearLayout>

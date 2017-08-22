@@ -1,0 +1,77 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                   <Button
+            android:id="@+id/btnRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio" />
+
+        <Button
+            android:id="@+id/btnTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tab Demo" />
+
+        <Button
+            android:id="@+id/btnToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On/Off" />
+
+        <Button
+            android:id="@+id/btnSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spinner" />
+
+        <Button
+            android:id="@+id/chkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CheckBox" />
+
+        <Button
+            android:id="@+id/btnProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress Bar" />
+
+        <Button
+            android:id="@+id/btnDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dialog" />
+
+        <Button
+            android:id="@+id/btnNoti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification" />
+
+
+
+
+        <Button
+            android:id="@+id/btnswitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch" />
+
+                
+            </LinearLayout>
+        </ScrollView>
+
+         </LinearLayout>
